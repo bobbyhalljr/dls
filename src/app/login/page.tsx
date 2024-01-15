@@ -13,7 +13,7 @@ export default function Component() {
         <h2 className="text-2xl font-semibold text-center text-gray-700 dark:text-white">Login to your account</h2>
         <div className="mt-4">
           <Link href='/dashboard'>
-            <Button className="w-full flex items-center bg-gray-800 text-gray-100 hover:bg-gray-700 justify-center" variant="outline">
+            <Button className="w-full flex items-center justify-center">
               <GithubIcon className="h-5 w-5 mr-2" />
               Login with GitHub
             </Button>
@@ -26,7 +26,7 @@ export default function Component() {
             </Label>
             <Input className="mt-1 w-full" id="email" placeholder="john@example.com" required type="email" />
           </div>
-          <Button className="w-full mt-4">Send Magic Link</Button>
+          <Button variant='secondary' className="w-full mt-4">Send Magic Link</Button>
         </div>
       </div>
       <footer className="mt-6 text-center text-gray-400 dark:text-gray-200">
